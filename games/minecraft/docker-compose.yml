@@ -3,6 +3,8 @@
 services:
   mc:
     image: itzg/minecraft-server:latest
+    container: minecraft
+    hostname: minecraft
     tty: true
     stdin_open: true
     ports:
